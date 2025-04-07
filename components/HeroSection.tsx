@@ -42,7 +42,7 @@ export const HeroSection = () => {
           <div className="flex flex-col sm:flex-row justify-center gap-4">
             <Link
               href="/raffles"
-              className="bg-primary text-black px-8 py-4 rounded-md font-bold text-lg hover:bg-primary/90 transition-all group flex items-center justify-center">
+              className="bg-primary text-black px-8 py-4 rounded-lg font-bold text-lg hover:bg-primary/90 transition-all group flex items-center justify-center">
               Browse Raffles
               <motion.span
                 className="inline-block ml-2"
@@ -58,7 +58,7 @@ export const HeroSection = () => {
             </Link>
             <Link
               href="/guide"
-              className="border-2 border-primary text-white px-8 py-4 rounded-md font-bold text-lg hover:bg-primary/10 transition-all">
+              className="border-2 border-primary text-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-primary/10 transition-all">
               Learn More
             </Link>
           </div>

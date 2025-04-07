@@ -67,7 +67,7 @@ export default function RaffleCard({ raffle }: RaffleProps) {
         <div className="absolute inset-0 bg-gradient-to-t from-zinc-900 to-transparent opacity-60" />
 
         <div className="absolute top-3 right-3">
-          <p className={`text-xs rounded-md px-2 py-1 ${statusBadgeColor}`}>
+          <p className={`text-xs rounded-lg px-2 py-1 ${statusBadgeColor}`}>
             Ends {timeLeft}
           </p>
         </div>
@@ -81,7 +81,7 @@ export default function RaffleCard({ raffle }: RaffleProps) {
           </div>
           
           <div className="flex items-center gap-1.5">
-            <p className="text-xs bg-zinc-800/80 rounded-md px-2 py-1 text-white">
+            <p className="text-xs bg-zinc-800/80 rounded-lg px-2 py-1 text-white">
               {raffle.soldTickets}/{raffle.totalTickets}
             </p>
           </div>
@@ -108,7 +108,7 @@ export default function RaffleCard({ raffle }: RaffleProps) {
         </div>
 
         {/* Entry fee */}
-        <div className="bg-zinc-800 rounded-md p-2 flex justify-between items-center">
+        <div className="bg-zinc-800 rounded-lg p-2 flex justify-between items-center">
           <p className="text-xs text-gray-400">Entry Fee:</p>
           <p className="text-base font-mono font-bold text-white">
             {raffle.entryFee} {raffle.currency}

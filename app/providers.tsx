@@ -49,7 +49,8 @@ export function Providers({ children }: { children: React.ReactNode }) {
       standby: "#00D7FE",
     },
     fonts: {
-      body: "Geist",
+      body: "Codystar", 
+      
     },
     radii: {
       actionButton: "8px",

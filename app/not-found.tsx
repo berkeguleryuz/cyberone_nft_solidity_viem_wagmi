@@ -46,13 +46,13 @@ export default function NotFound() {
           className="flex flex-col gap-4 sm:flex-row sm:justify-center">
           <Link
             href="/"
-            className="group flex items-center justify-center gap-2 rounded-md bg-white px-6 py-3 font-medium text-black transition-all hover:bg-opacity-90">
+            className="group flex items-center justify-center gap-2 rounded-lg bg-white px-6 py-3 font-medium text-black transition-all hover:bg-opacity-90">
             <Home size={20} />
             Go Home
           </Link>
           <Link
             href="/raffles"
-            className="group flex items-center justify-center gap-2 rounded-md px-6 py-3 font-medium transition-all hover:bg-opacity-90"
+            className="group flex items-center justify-center gap-2 rounded-lg px-6 py-3 font-medium transition-all hover:bg-opacity-90"
             style={{ backgroundColor: "var(--accent-teal)", color: "black" }}>
             Explore Raffles
             <ArrowRight

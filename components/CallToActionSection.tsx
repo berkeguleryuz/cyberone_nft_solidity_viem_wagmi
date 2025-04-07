@@ -31,7 +31,7 @@ export const CallToActionSection = () => {
             </p>
             <Link
               href="/raffles"
-              className="bg-primary text-black px-8 py-4 rounded-md font-bold text-lg hover:scale-105 transition-all inline-flex items-center"
+              className="bg-primary text-black px-8 py-4 rounded-lg font-bold text-lg hover:scale-105 transition-all inline-flex items-center"
             >
               Start Now
               <ArrowRight className="ml-2" />

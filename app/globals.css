@@ -8,6 +8,8 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  --font-heading: var(--font-codystar);
+  --font-body: var(--font-raleway);
   --color-sidebar-ring: var(--sidebar-ring);
   --color-sidebar-border: var(--sidebar-border);
   --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
@@ -51,7 +53,7 @@
   --card-foreground: oklch(0.985 0 0);
   --popover: oklch(0.15 0 0);
   --popover-foreground: oklch(0.985 0 0);
-  --primary: oklch(0.7 0.22 200); /* Cyber blue color */
+  --primary: #00d7fe;
   --primary-foreground: oklch(0.1 0 0);
   --secondary: oklch(0.2 0 0);
   --secondary-foreground: oklch(0.985 0 0);
@@ -79,7 +81,9 @@
   --foreground-rgb: 255, 255, 255;
   --background-start-rgb: 0, 0, 0;
   --background-end-rgb: 10, 10, 10;
-  --accent-teal: #00ced1; /* Turkuaz tonunda bir renk - siyah ve mavi ile uyumlu */
+  --accent-teal: #00d7fe;
+  --font-codystar: "Codystar", cursive;
+  --font-raleway: "Raleway", sans-serif;
 }
 
 .dark {
@@ -89,7 +93,7 @@
   --card-foreground: oklch(0.985 0 0);
   --popover: oklch(0.15 0 0);
   --popover-foreground: oklch(0.985 0 0);
-  --primary: oklch(0.7 0.22 200);
+  --primary: #00d7fe;
   --primary-foreground: oklch(0.1 0 0);
   --secondary: oklch(0.2 0 0);
   --secondary-foreground: oklch(0.985 0 0);
@@ -114,7 +118,7 @@
   --sidebar-accent-foreground: oklch(0.985 0 0);
   --sidebar-border: oklch(1 0 0 / 10%);
   --sidebar-ring: oklch(0.556 0 0);
-  --accent-teal: #00ced1; /* Turkuaz tonunda bir renk - siyah ve mavi ile uyumlu */
+  --accent-teal: #00d7fe;
 }
 
 @layer base {
@@ -123,17 +127,26 @@
   }
   body {
     @apply bg-background text-foreground;
+    font-family: var(--font-raleway);
     overflow-x: hidden;
-    pointer-events: auto !important;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
   }
-  /* Make sure elements are clickable by default */
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--font-codystar);
+    font-weight: normal;
+  }
   a,
   button,
   input,
   select,
   textarea,
   [role="button"] {
-    pointer-events: auto !important;
     position: relative;
     z-index: 2;
   }
@@ -149,7 +162,6 @@
   background-size: 30px 30px;
 }
 
-/* Custom animations */
 @keyframes float {
   0%,
   100% {

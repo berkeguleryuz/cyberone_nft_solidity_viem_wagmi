@@ -135,7 +135,7 @@ export const CreateRaffleSection = () => {
             <div className="mt-10">
               <Link
                 href="/create-raffle"
-                className="inline-flex items-center gap-2 text-black px-8 py-4 rounded-md font-bold text-lg transition-all group hover:opacity-90"
+                className="inline-flex items-center gap-2 text-black px-8 py-4 rounded-lg font-bold text-lg transition-all group hover:opacity-90"
                 style={{ backgroundColor: "var(--accent-teal)" }}>
                 Start Creating
                 <ArrowUpRight
@@ -210,7 +210,7 @@ export const CreateRaffleSection = () => {
 
                   <div className="mt-2 cursor-pointer">
                     <div
-                      className="w-full py-3 rounded-md font-bold text-center text-black"
+                      className="w-full py-3 rounded-lg font-bold text-center text-black"
                       style={{ backgroundColor: "var(--accent-teal)" }}>
                       Buy Ticket
                     </div>
