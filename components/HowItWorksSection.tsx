@@ -46,7 +46,7 @@ export const HowItWorksSection = () => {
             </div>
             <h3 className="text-xl font-semibold mb-3">Purchase Tickets</h3>
             <p className="text-gray-300">
-              Browse available NFT raffles and purchase tickets to participate.
+              Browse available raffles and purchase tickets to participate.
             </p>
           </motion.div>
 
@@ -62,7 +62,7 @@ export const HowItWorksSection = () => {
             </div>
             <h3 className="text-xl font-semibold mb-3">Win & Claim</h3>
             <p className="text-gray-300">
-              If you win, the NFT will be automatically transferred to your
+              If you win, the prize will be automatically transferred to your
               wallet.
             </p>
           </motion.div>

@@ -12,6 +12,7 @@ import {
   Award,
   Image as ImageIcon,
   Coins,
+  Smile,
 } from "lucide-react";
 
 export default function RaffleGuide() {
@@ -73,18 +74,14 @@ export default function RaffleGuide() {
                     Ticket Pricing
                   </h3>
                   <div className="bg-zinc-800/60 rounded-lg p-4">
-                    <div className="flex items-center justify-between mb-2">
-                      <span className="text-gray-300">1 Ticket</span>
-                      <span className="font-mono text-white">0.05 ETH</span>
+                    <div className="flex items-center mb-2">
+                      <span className="text-gray-300 text-mono">
+                        It is upto creator
+                      </span>
                     </div>
-                    <div className="flex items-center justify-between mb-2">
-                      <span className="text-gray-300">5 Tickets</span>
-                      <span className="font-mono text-white">0.2 ETH</span>
-                    </div>
-                    <div className="flex items-center justify-between">
-                      <span className="text-gray-300">10 Tickets</span>
-                      <span className="font-mono text-white">0.35 ETH</span>
-                    </div>
+                    <span className="text-gray-300 text-mono items-center text-center">
+                      Be creative! <Smile className="inline-block h-4 w-4" />
+                    </span>
                   </div>
                 </div>
 
@@ -312,9 +309,9 @@ export default function RaffleGuide() {
                       Randomness Generation
                     </h3>
                     <p className="text-gray-300 text-lg leading-relaxed">
-                      We utilize Chainlink VRF (Verifiable Random Function) to
-                      ensure true randomness that cannot be manipulated by
-                      anyone, including our team.
+                      We utilize random number generator to ensure true
+                      randomness that cannot be manipulated by anyone, including
+                      our team.
                     </p>
                   </div>
                 </div>

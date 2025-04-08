@@ -43,9 +43,9 @@ const codystar = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "CyberOne - NFT Raffle Platform",
+  title: "CyberOne - Automated Raffle Platform",
   description:
-    "Win exclusive NFTs through our secure blockchain-powered raffle platform.",
+    "Win exclusive raffles through our secure blockchain-powered raffle platform.",
 };
 
 export default function RootLayout({
