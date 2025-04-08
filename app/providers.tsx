@@ -44,7 +44,7 @@ export function Providers({ children }: { children: React.ReactNode }) {
       modalTextSecondary: "#000000",
       profileAction: "#00D7FE",
       profileActionHover: "#00B7DB",
-      profileForeground: "#1A1A1A",
+      profileForeground: "#00B7DB",
       selectedOptionBorder: "#00D7FE",
       standby: "#00D7FE",
     },
