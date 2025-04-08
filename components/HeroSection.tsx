@@ -39,6 +39,10 @@ export const HeroSection = () => {
             Join the next generation of digital collectibles on CyberOne.
             Participate in our secure blockchain-powered raffles.
           </p>
+          <p className="text-xl text-gray-300 mb-10 max-w-2xl mx-auto">
+            CyberRaffle platform will be starting after the CyberOne NFTs are
+            minted.
+          </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
             <Link
               href="/raffles"

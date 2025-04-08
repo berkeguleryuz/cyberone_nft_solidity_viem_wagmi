@@ -128,7 +128,7 @@ export default function RaffleGuide() {
                       </h3>
                     </div>
                     <p className="text-gray-300 text-lg relative z-10">
-                      Win exclusive NFTs with unique properties and rarity.
+                      Win exclusive prizes with unique properties and rarity.
                       Perfect for collectors and NFT enthusiasts. NFT prizes
                       include rare artwork, collectibles, and other digital
                       assets with proven scarcity on the blockchain.
@@ -325,7 +325,7 @@ export default function RaffleGuide() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.4 }}>
             <h2 className="text-3xl font-bold text-white mb-6">
-              Ready to Win Exclusive Digital Assets?
+              Ready to Win Exclusive Assets?
             </h2>
             <p className="text-gray-300 mb-8 max-w-2xl mx-auto text-lg">
               Join thousands of participants who have already won valuable NFTs

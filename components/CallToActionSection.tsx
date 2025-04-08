@@ -22,7 +22,7 @@ export const CallToActionSection = () => {
           <div className="relative z-10 text-center">
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6">
               Ready to Win Exclusive{" "}
-              <span className="text-primary">NFTs</span>?
+              <span className="text-primary">Assets</span>?
             </h2>
             <p className="text-lg text-gray-300 max-w-3xl mx-auto mb-8">
               Join CyberOne today and participate in our NFT raffles. Connect
