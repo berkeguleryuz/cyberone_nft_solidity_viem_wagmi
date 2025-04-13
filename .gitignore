@@ -18,8 +18,9 @@
 /out/
 
 # prisma
-/lib/generated
-
+/prisma/node_modules
+/prisma/.env
+/node_modules/.prisma
 
 # production
 /build
