@@ -17,10 +17,10 @@ export async function POST(req: Request) {
     });
 
     if (existingEntry) {
-      if (!existingEntry.wallet && wallet) {
+      if (!existingEntry.walletAddress && wallet) {
         const updatedEntry = await prisma.waitlist.update({
           where: { email },
-          data: { wallet },
+          data: { walletAddress: wallet },
         });
         return NextResponse.json(updatedEntry);
       }
@@ -34,7 +34,7 @@ export async function POST(req: Request) {
     const waitlistEntry = await prisma.waitlist.create({
       data: { 
         email,
-        wallet: wallet || undefined 
+        walletAddress: wallet || null
       },
     });
 
