@@ -149,7 +149,8 @@ export default function RaffleGuide() {
                       Win cryptocurrency tokens like ETH or platform-specific
                       tokens. Great for those looking for liquid assets. Token
                       prizes can be immediately traded or held as a long-term
-                      investment depending on your strategy.
+                      investment depending on your strategy. The token amount is
+                      specified in the raffles.
                     </p>
                   </div>
                 </div>
