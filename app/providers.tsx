@@ -49,8 +49,7 @@ export function Providers({ children }: { children: React.ReactNode }) {
       standby: "#00D7FE",
     },
     fonts: {
-      body: "Codystar", 
-      
+      body: "Codystar",
     },
     radii: {
       actionButton: "8px",
@@ -74,12 +73,12 @@ export function Providers({ children }: { children: React.ReactNode }) {
         <RainbowKitProvider theme={cyberTheme} locale="en">
           {children}
           <Toaster
-            position="bottom-right"
+            position="top-center"
             toastOptions={{
               style: {
-                background: "#1A1A1A",
-                color: "#FFFFFF",
-                border: "1px solid #303030",
+                background: "#00d7fe",
+                color: "#000000",
+                border: "1px solid #00d7fe",
                 borderRadius: "8px",
               },
             }}
